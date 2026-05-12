@@ -1,0 +1,21 @@
+.formationlist{
+    display: flex;
+    flex-direction: column;
+}
+
+.formation-title{
+    font-weight: bold;
+    text-align: center;
+    color: dodgerblue;
+    font-size: 4rem;
+}
+.formationlist-list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+
+
