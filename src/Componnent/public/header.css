@@ -1,0 +1,20 @@
+.pHeader{
+    text-align: center;
+    line-height:5;
+
+}
+.pHeader ul{
+   list-style: none;
+   padding: 0px;
+
+}
+.pHeader ul li{
+   display: inline-block;
+   margin-right: 20px;
+
+}
+.pHeader ul li a{
+  text-decoration: none;
+  color: #000;
+
+}
