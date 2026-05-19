@@ -42,7 +42,7 @@ function Formationlist(){
 
    return(
       <div className="formationlist">
-        <h2 className="formation-title">Formation</h2>
+        <h2 className="formation-title">Formations</h2>
          <div className="formationlist-list">
             {
              formations.map((formation,index ) =>{
