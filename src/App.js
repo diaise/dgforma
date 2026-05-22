@@ -1,5 +1,5 @@
 
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import PublicRouter from './Pages/Public/PublicRouter';
 import 'bootstrap/dist/css/bootstrap.min.css';
