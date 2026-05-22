@@ -6,13 +6,13 @@ function Bandeau(){
     <div id="carouselExample" className="carousel slide">
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="./forma-jenjou/photo7.jpg" className="d-block w-100" alt="..."/>
+          <img src="./photo7.jpg" className="d-block w-100" alt="..."/>
         </div>
         <div className="carousel-item">
-          <img src="./forma-jenjou/photo6.jpg" className="img-fluid" alt="..."/>
+          <img src="./photo6.jpg" className="img-fluid" alt="..."/>
         </div>
         <div className="carousel-item">
-          <img src="./forma-jenjou/photo5.jpg" className="d-block w-100" alt="..."/>
+          <img src="./photo5.jpg" className="d-block w-100" alt="..."/>
         </div>
       </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
