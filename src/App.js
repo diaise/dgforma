@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import PublicRouter from './Pages/Public/PublicRouter';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -7,11 +7,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <Router>
         <Routes>
           <Route path='/*' element={<PublicRouter/>}/>
         </Routes>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }
