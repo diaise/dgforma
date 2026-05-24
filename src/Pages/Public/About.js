@@ -17,7 +17,7 @@ const About = () =>{
           </p>
         </div>
         <div className="col-md-6">
-         <img src="http://sleofr.free.fr/images/imbd.jpg" className="img-fluid" alt="qui somme nous"/>
+         <img src="./photo5.jpg" className="img-fluid" alt="qui somme nous"/>
         </div>
       </div>
     </div>
