@@ -1,12 +1,13 @@
 import React from "react";
-import './Formation.css'
+import './Formationlist.css'
 
 
 function Formation({title, img, desc}){
     return(
-        <div className="formation">
-            <h3 className="">{title}</h3>
+        <div className="container">
+            
             <img src={img} alt="formation développeur web" />
+            <h3 className="">{title}</h3>
             <p>{desc}</p>
         </div>
     );

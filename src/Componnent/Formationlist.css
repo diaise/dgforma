@@ -1,19 +1,34 @@
-.formationlist{
-    display: flex;
-    flex-direction: column;
-}
 
 .formation-title{
     font-weight: bold;
-    text-align: center;
-    color: dodgerblue;
-    font-size: 4rem;
+    font-size:3rem;
 }
 .formationlist-list{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 10px;
 }
+
+
+.formationlist-list_img{
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.entree_desc{
+  text-align: center;
+  padding: 5px;
+}
+@media (max-width:767px) {
+  .formationlist-list{
+    flex-direction: column;
+    display: flex;
+  }
+}
+
+
 
 
 

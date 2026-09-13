@@ -1,0 +1,18 @@
+.bandeau{
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 5;
+  justify-content: space-around;
+  background-color: #181d27;
+  color:aliceblue;
+  align-items: center;
+  font-weight: bold;
+}
+@media (max-width:767px) {
+  .bandeau{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+

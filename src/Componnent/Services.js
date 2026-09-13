@@ -1,14 +1,15 @@
 import React from "react";
-import './Formation.css'
+
 
 
 function Services({title, img, desc}){
 
     return(
-        <div className="formation">
-            <h3>{title}</h3>
-            <img src={img} alt="" />
-            <p>{desc}</p>
+
+        <div className="">
+            <img className="service_img" src={img} alt="" />
+            <h3 className="service_title">{title}</h3>
+            <p className="service_desc">{desc}</p>
         </div>
     );
 }

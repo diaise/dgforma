@@ -1,0 +1,29 @@
+.pop{
+   width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 10px;
+}
+.container h2{
+  font-weight: bold;
+}
+.pop_img{
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 5px;
+}
+.pop_title{
+  font-size: x-large;
+}
+.pop_desc{
+  padding: 5px;
+  text-align: justify;
+}
+@media (max-width:767px) {
+  .pop{
+    flex-direction: column;
+    display: flex;
+  }
+}
+
