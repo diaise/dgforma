@@ -1,13 +1,13 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import Header from '../../Componnent/public/Header';
+import Header2 from '../../Componnent/public/Header2';
 import Footer from '../../Componnent/public/Footer';
 
 
 const Layout = () => {
     return (
         <div className='Layout'>
-            <Header/>
+            <Header2/>
             <Outlet/>
             <Footer/>
         </div>
