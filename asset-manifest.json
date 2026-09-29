@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dgforma/static/css/main.36214ce1.css",
-    "main.js": "/dgforma/static/js/main.f732955a.js",
+    "main.css": "/dgforma/static/css/main.02bd1dfc.css",
+    "main.js": "/dgforma/static/js/main.85942081.js",
     "static/js/453.d97a21bd.chunk.js": "/dgforma/static/js/453.d97a21bd.chunk.js",
     "index.html": "/dgforma/index.html",
-    "main.36214ce1.css.map": "/dgforma/static/css/main.36214ce1.css.map",
-    "main.f732955a.js.map": "/dgforma/static/js/main.f732955a.js.map",
+    "main.02bd1dfc.css.map": "/dgforma/static/css/main.02bd1dfc.css.map",
+    "main.85942081.js.map": "/dgforma/static/js/main.85942081.js.map",
     "453.d97a21bd.chunk.js.map": "/dgforma/static/js/453.d97a21bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.36214ce1.css",
-    "static/js/main.f732955a.js"
+    "static/css/main.02bd1dfc.css",
+    "static/js/main.85942081.js"
   ]
 }
