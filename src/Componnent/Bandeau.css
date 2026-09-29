@@ -7,12 +7,16 @@
   color:aliceblue;
   align-items: center;
   font-weight: bold;
+  width: 100%;
 }
 @media (max-width:767px) {
   .bandeau{
     flex-direction: column;
     flex-wrap: wrap;
   }
+}
+section{
+  padding: 2rem 8vw;
 }
 
 

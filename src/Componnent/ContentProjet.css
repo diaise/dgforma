@@ -1,22 +1,23 @@
-
-
 .two-coloms{
   width: 100%;
   display: flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  }
+
+.two-coloms h1 {
+font-weight: bold;
 }
-.two-coloms >div{
-  width: 100%;
+.two-coloms h1 span{
+color: gold;
 }
 .two-coloms span{
   font-weight: bold;
 }
+.two-coloms > div {width: 100%;padding: 10px; }
 
   
 @media (max-width:767px) {
-  section{
+  .two-coloms{
     flex-direction: column;
-    display: flex;
+  
   }
 }

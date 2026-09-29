@@ -39,16 +39,18 @@ function Serviceslist(){
   ];
 
   return(
-    <div className="container">
-       <h2>Services</h2>
-        <div className="pocus">
+    <section>
+      <div className="container">
+        <h2>Services</h2>
+        <div className="service">
           {
             formations.map((formation,index) =>{
               return <Services key={index} {...formation}/>; 
             })
           } 
         </div>
-    </div>
+      </div>
+    </section>
   );
 }
 export default Serviceslist;

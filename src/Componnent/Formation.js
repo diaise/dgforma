@@ -1,16 +1,15 @@
-import React from "react";
-import './Formationlist.css'
+import React from 'react';
 
 
-function Formation({title, img, desc}){
-    return(
-        <div className="container">
-            
-            <img src={img} alt="formation développeur web" />
-            <h3 className="">{title}</h3>
-            <p>{desc}</p>
+const Pop = ({title, img, desc}) => {
+    return (
+        <div className=''>
+            <img className='formation_img' src={img} alt=""/>
+            <h3 className='formation_title'>{title}</h3>
+            <p className='formation_desc'>{desc}</p>
         </div>
     );
 }
-export default Formation;
+
+export default Pop;
 

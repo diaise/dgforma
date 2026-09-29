@@ -1,48 +1,43 @@
-import React from "react";
-import Formation from "./Formation";
-import './Formationlist.css'
+import React from 'react';
+import Formation from './Formation';
+import './Formation.css';
 
-
-function Formationlist(){
-   const formations = [
+const PopList = () => {
+    const formations = [
      {
-        
-        title: 'Développeur intégrateur web',
-        img: 'https://placehold.co/300x200',
-        desc: 'Vous souhaitez vous lancer dans le développement web mais êtes débutant en informatique ? Ce cycle diplômant de niveau 5 vous donnera toutes les clés pour devenir un intégrateur développeur web.',
+        title: 'Marketing, Communication',
+        img: 'https://images.unsplash.com/photo-1527689368864-3a821dbccc34?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNpdGUlMjBpbnRlcm5ldHxlbnwwfHwwfHx8MA%3D%3D',
+        desc: 'Community manager',
      },
 
      {
-        title: 'Développeur web',
-        img: 'https://placehold.co/300x200',
-        desc: 'Vous souhaitez vous lancer dans le développement web mais êtes débutant en informatique ? Ce cycle diplômant de niveau 6 conçu spécialement pour les profils non-techniques vous donnera toutes les clés pour devenir un développeur web.',
+        title: 'Développement web',
+        img: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2l0ZSUyMGludGVybmV0fGVufDB8fDB8fHww',
+        desc: 'Développeur intégrateur web',
      },
 
      {
-        title: 'Management de la Cybersécurité',
-        img: 'https://placehold.co/300x200',
-        desc: 'Vous souhaitez devenir un expert en cybersécurité ? Avec cet Executive Mastère, développez des compétences stratégiques et opérationnelles pour analyser les risques, concevoir des architectures sécurisées, et protéger vos systèmes informatiques d’intrusions malveillantes.',
+        title: 'Design graphique - UX/UI',
+        img: 'https://images.unsplash.com/photo-1587440871875-191322ee64b0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fHNpdGUlMjBpbnRlcm5ldHxlbnwwfHwwfHx8MA%3D%3D',
+        desc: 'Designeur UX/UI',
      },
      
    ];
 
-   return(
-      <div className="container">
-        <h2 className="formation-title">Formations</h2>
-         <div className="formation">
-            {
-             formations.map((formation,index ) =>{
-                return <Formation key={index} {...formation}/>; 
-            })
-            }
+    return (
+      <section>
+         <div className="container">
+            <h2>Formations</h2>
+            <div className="formation">
+               {
+                  formations.map((formation,index ) =>{
+                  return <Formation key={index} {...formation}/>; 
+                  })
+               }
+            </div>
          </div>
-      </div>
-   );
+      </section>
+    );
 }
-export default Formationlist;
-
-
-
-
-
+export default PopList;
 

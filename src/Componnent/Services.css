@@ -1,4 +1,4 @@
-.pocus{
+.service{
    width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
@@ -22,7 +22,7 @@
   text-align: justify;
 }
 @media (max-width:767px) {
-  .pocus{
+  .service{
     flex-direction: column;
     display: flex;
   }

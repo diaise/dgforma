@@ -1,11 +1,11 @@
 .pHeader{
-    text-align: center;
+    text-align: left;
     line-height:5;
     background-color: #282d32
 }
 .pHeader ul{
    list-style: none;
-   padding: 0px;
+   
 }
 .pHeader ul li{
    display: inline-block;

@@ -1,33 +1,22 @@
 
-.pres{
-  width: 100%;
-  display: flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  
-}
-.tod  {
-  width: 100%;
-}
-.tod img{
- width: 100%;
- background-size: cover;
-}
-.tod h1{
+
+
+
+.two-coloms h2 {
 font-weight: bold;
 }
-.tod span{
- color: gold;
+.two-coloms h2 span{
+color: gold;
 }
-.tad{
-  width: 100%;
-  height: auto;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  flex-wrap: wrap;
-  }
-  
+.two-coloms span{
+  font-weight: bold;
+}
+
+ .two-coloms img{
+ width: 100%;
+ background-size: cover;
+ border-radius: 30px;
+} 
   
 @media (max-width:767px) {
   section{

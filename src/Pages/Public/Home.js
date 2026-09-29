@@ -1,17 +1,17 @@
 import React from "react";
 
 import Content from "../../Componnent/Content";
-import PopList from "../../Componnent/PopList";
+import FormationList from "../../Componnent/FormationList";
 import Bandeau from "../../Componnent/Bandeau";
-import Bog from "../../Componnent/Bog";
+import ContentProjet from "../../Componnent/ContentProjet";
 
 
 
 const Home = () =>{
     return(
     <div>
-        <Bog />
-        <PopList />
+        <ContentProjet />
+        <FormationList />
         <Bandeau />
         <Content />
     </div>

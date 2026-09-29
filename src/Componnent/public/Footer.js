@@ -1,6 +1,6 @@
 import React from "react";
 import '../../Componnent/public/Footer.css';
-
+import { Link } from "react-router-dom";
 
 const Footer = () =>{
   return(
@@ -11,15 +11,15 @@ const Footer = () =>{
                     <div className="col-sm-6 col-md-3 item">
                         <h3>Services</h3>
                         <ul>
-                            <li>Accueil</li>
-                            <li>Services</li>
-                            <li>Contact</li>
+                            <li><Link to='/'>Accueil</Link></li>
+                            <li><Link to='/Service'>Services</Link></li>
+                            <li><Link to='/Contact'>Contact</Link></li>
                         </ul>
                     </div>
                     <div className="col-sm-6 col-md-3 item">
                         <h3>Qui sommes nous</h3>
                         <ul>
-                            <li>Présentation</li>
+                            <li><Link to='/About'>Présentation</Link></li>
                             <li></li>
                             <li></li>
                         </ul>
